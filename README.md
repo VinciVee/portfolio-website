@@ -1,6 +1,8 @@
 # Shortcuts (Tailwind)
 - Quick suggestions: ctrl + space
 - Documentation: ctrl + shift + p
+- Hide classnames: ctrl + alt + a
+- Order classes (headwind): ctrl + alt + t
 
 # React + Vite
 
