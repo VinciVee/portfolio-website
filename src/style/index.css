@@ -17,6 +17,46 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  font-family: 'Open Sans', apple-system, sans-serif;
+  background: var(--primary);
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.appContent {
+  margin: 1rem auto;
+  flex: 1;
+}
+
+#hero-section {
+  margin: 1rem auto;
+  padding: 2rem 10rem;
+}
+
+#hero-section h1 {
+  font-weight: bolder;
+  font-size: 4em;
+  margin: 2rem 0;
+}
+
+#hero-section p {
+  margin: 1.5rem 0;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  color: var(--primary);
+  background-color: var(--complementarySkew);
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -24,14 +64,6 @@ a {
 }
 a:hover {
   color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -70,3 +102,18 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* C. NOT FOUND PAGE */
+.notFoundWrapper {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.notFoundCover img {
+  display: block;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* D. ACCORDION COMPONENT */
+/* YOUR CSS HERE :) */
