@@ -1,19 +1,15 @@
-// import Header from "../components/layout/Header"
-import { useState } from "react"
+// import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';
 
-function Home() {
-  const [message, setMessage] = useState("Yo");
-
+const Home = () => {
   return (
-    <div>
-      {/* <Header /> */}
-      <h1 
-        className="myClass"
-        style={{ backgroundColor: "darkblue", color: "pink" }}
-        >{message} there!</h1>
-        
-      <button onClick={() => setMessage(message + " yo")}>Message Me</button>
-    </div>
+    <>
+      <div id="hero-section">
+        <h1>Welcome to React Base</h1>
+        <p>Our first peer into the React ecosystem & first principles!</p>
+        <Link to="/about" className="homeBtn">About Me</Link>
+      </div>
+    </>
   )
 }
 
