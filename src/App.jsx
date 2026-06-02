@@ -1,5 +1,5 @@
 // Import npm packages
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router'
 
 // Import pages
 import Layout from './components/layout/Layout'
