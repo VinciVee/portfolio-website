@@ -14,7 +14,7 @@ function AboutPage() {
   return (
     <>
       <h1>About Me</h1>
-      <AccordionList 
+      <AccordionList
         panels={panels}
       />
     </>

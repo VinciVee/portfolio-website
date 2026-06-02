@@ -1,7 +1,7 @@
 // Import npm packages
 import { Routes, Route } from 'react-router-dom'
 
-// Import pages 
+// Import pages
 import Layout from './components/layout/Layout'
 import Home from './pages/Home';
 import About from './pages/About';
@@ -10,9 +10,9 @@ import ProjectsPage from './pages/ProjectsPage';
 import NotFound from './pages/NotFound';
 
 function App() {
-  // LOGIC COMPUTATION (JS)
+  // Logic
 
-  // TEMPLATE/OUTPUT (JSX)
+  // output
   return (
     <Routes>
       {/* MAIN LAYOUT WRAPPER & ROUTED CHILDREN */}

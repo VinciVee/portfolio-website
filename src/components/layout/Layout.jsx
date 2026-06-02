@@ -1,4 +1,3 @@
-// *NEW* RRD6 "Outlet" component
 import { Outlet } from 'react-router-dom';
 
 import Header from './Header'
@@ -10,7 +9,7 @@ const Layout = () => {
 
   return (
     // <div className={"app " + theme}>
-    <div>
+    <div className="max-w-fit flex">
       <Header />
       <div className="appContent">
         <Outlet />
