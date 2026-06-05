@@ -10,10 +10,15 @@ This project is actively under development.
 
 **TO DOs:**
 - Basic Layout for:
-  * Header
-  * Footer
-  * Resume Sections
-  * Project Tiles
+  * Define website layout CSS in style
+  * Header (name and links)
+  * Footer (contact info)
+  * Resume Sections (Title, headings, text, spacing, columns)
+  * Project Tiles (image, title, tech used, link)
+- CSS:
+  * Change classic CSS to Tailwind
+  * Define spacing and gaps
+  * Define fonts to use.
 - Basic Layout for:
   * About Page
   * Projects Page

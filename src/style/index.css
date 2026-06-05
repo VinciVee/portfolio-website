@@ -1,8 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
 
+@theme {
+  --font-display: "Satoshi", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "DM Mono", "SF Mono", ui-monospace, monospace;
+
+  /* Primary (background, buttons, borders) */
+  --color-primary: --color-cyan-700;
+  --color-primary-light: --color-cyan-800;
+  --color-primary-dark: --color-cyan-950;
+  /* Text  */
+  --color-text: --color-sky-50;
+  --color-text-muted: --color-sky-200;
+  --color-text-heading: --color-sky-600;
+  /* Accent (links) */
+  --color-accent: --color-rose-700;
+  --color-accent-light: --color-rose-500;
+  --color-accent-dark: --color-rose-900;
+
+  /* Layout */
+  --width-layout: clamp(300px,88%,80rem);
+}
+
 /* COLOR SHEET: https://tailwindcss.com/docs/customizing-colors */
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -15,7 +35,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 /*
 body {
