@@ -10,7 +10,7 @@ This project is actively under development.
 
 **TO DOs:**
 - Basic Layout for:
-  * Define website layout CSS in style
+  * Use @layer components to define typography fonts (h1,h2,h3,p,small,strong)
   * Header (name and links)
   * Footer (contact info)
   * Resume Sections (Title, headings, text, spacing, columns)

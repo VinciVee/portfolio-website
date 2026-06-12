@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const Home = () => {
   return (
     <>
-      <div id="hero-section">
+      <div id="hero-section" className="my-4 mx-auto py-8 px-40">
         <h1>Welcome to React Base</h1>
         <p>Our first peer into the React ecosystem & first principles!</p>
         <Link to="/about" className="homeBtn">About Me</Link>

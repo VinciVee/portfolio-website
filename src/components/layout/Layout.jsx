@@ -9,11 +9,11 @@ const Layout = () => {
 
   return (
     // <div className={"app " + theme}>
-    <div className="max-w-fit max-h-fit flex flex-column justify-between">
+    <div className="min-h-screen flex flex-col justify-between text-center">
       <Header />
-      <div className="">
+      <main className="w-layout my-4 mx-auto flex-grow py-4">
         <Outlet />
-      </div>
+      </main>
       <Footer />
     </div>
   )
