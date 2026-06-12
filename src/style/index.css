@@ -5,20 +5,26 @@
   --font-mono: "DM Mono", "SF Mono", ui-monospace, monospace;
 
   /* Primary (background, buttons, borders) */
-  --color-primary: --color-cyan-700;
-  --color-primary-light: --color-cyan-800;
-  --color-primary-dark: --color-cyan-950;
+  --color-primary: var(--color-cyan-700);
+  --color-primary-light: var(--color-cyan-800);
+  --color-primary-dark: var(--color-cyan-950);
   /* Text  */
-  --color-text: --color-sky-50;
-  --color-text-muted: --color-sky-200;
-  --color-text-heading: --color-sky-600;
+  --color-text: var(--color-sky-50);
+  --color-text-muted: var(--color-sky-200);
+  --color-text-heading: var(--color-sky-600);
   /* Accent (links) */
-  --color-accent: --color-rose-700;
-  --color-accent-light: --color-rose-500;
-  --color-accent-dark: --color-rose-900;
+  --color-accent: var(--color-rose-700);
+  --color-accent-light: var(--color-rose-500);
+  --color-accent-dark: var(--color-rose-900);
 
   /* Layout */
   --width-layout: clamp(300px,88%,80rem);
+}
+
+@layer base {
+  body {
+    @apply font-display bg-primary-dark text-text antialiased;
+  }
 }
 
 /* COLOR SHEET: https://tailwindcss.com/docs/customizing-colors */
@@ -38,11 +44,6 @@
 } */
 
 /*
-body {
-  font-family: 'Open Sans', apple-system, sans-serif;
-  background: var(--primary);
-  box-sizing: border-box;
-}
 
 .app {
   text-align: center;

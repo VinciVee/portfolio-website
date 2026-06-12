@@ -9,7 +9,7 @@ const Layout = () => {
 
   return (
     // <div className={"app " + theme}>
-    <div className="max-w-fit flex flex-column justify-between">
+    <div className="max-w-fit max-h-fit flex flex-column justify-between">
       <Header />
       <div className="">
         <Outlet />
