@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <footer className="w-full">
-      <span className="text-center">&copy; 2025 react-base</span>
+      <small className="text-center font-light text-xs">&copy; 2026 react-base</small>
     </footer>
   )
 }

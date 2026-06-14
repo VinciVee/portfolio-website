@@ -18,13 +18,13 @@ const Header = () => {
         <nav className='w-auto' aria-label='Main Navigation'>
           <ul className='flex justify-around space-x-6'>
             <li>
-              <NavLink to='/about' className='text-xl'>About</NavLink>
+              <NavLink to='/about' className='text-xl'>about</NavLink>
             </li>
             <li>
-              <NavLink to='/projects' className='text-xl'>Projects</NavLink>
+              <NavLink to='/projects' className='text-xl'>projects</NavLink>
             </li>
             <li>
-              <NavLink to='/resume' className='text-xl'>Resume</NavLink>
+              <NavLink to='/resume' className='text-xl'>resume</NavLink>
             </li>
           </ul>
         </nav>
