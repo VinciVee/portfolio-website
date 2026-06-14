@@ -25,7 +25,10 @@
   body {
     @apply font-display bg-primary-dark text-text antialiased;
   }
+
+  h1 { @apply text-4xl mb-6; }
 }
+
 
 /* COLOR SHEET: https://tailwindcss.com/docs/customizing-colors */
 /* :root {
