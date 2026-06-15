@@ -1,5 +1,6 @@
 // import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router';
+import VeeButton from '../components/common/VeeButton';
 
 const Home = () => {
   return (

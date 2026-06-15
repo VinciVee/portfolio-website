@@ -5,9 +5,15 @@
   --font-mono: "DM Mono", "SF Mono", ui-monospace, monospace;
 
   /* Primary (background, buttons, borders) */
-  --color-primary: var(--color-cyan-700);
-  --color-primary-light: var(--color-cyan-800);
+  --color-primary: var(--color-cyan-800);
+  --color-primary-light: var(--color-cyan-700);
   --color-primary-dark: var(--color-cyan-950);
+  /* Brand (to replace primary latter) */
+  --color-brand-100: #2E4749;
+  --color-brand-200: #193132;
+  --color-brand-300: #0E2627;
+  --color-brand-400: #061A1B;
+  --color-brand-500: #010E0F;
   /* Text  */
   --color-text: var(--color-sky-50);
   --color-text-muted: var(--color-sky-200);
