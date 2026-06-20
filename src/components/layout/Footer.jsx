@@ -4,7 +4,7 @@ function Footer() {
   // const { theme } = useTheme();
 
   return (
-    <footer className="w-full">
+    <footer className="w-full py-2">
       <small className="text-center font-light text-xs">&copy; 2026 react-base</small>
     </footer>
   )

@@ -5,13 +5,13 @@ const Header = () => {
 
   return (
     <header className='w-full'>
-      <div className='px-5 py-2 flex items-center justify-between mx-auto'>
+      <div className='w-layout px-0 py-2 flex items-center justify-between mx-auto'>
         {/* Logo */}
         <Link
           to='/'
           className='text-xl'
         >
-          Logo
+          logo
         </Link>
 
         {/* Links */}

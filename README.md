@@ -9,19 +9,20 @@ React, Vite, Tailwind CSS, React Router Dom
 This project is actively under development.
 
 **TO DOs:**
-- Basic Layout for:
-  * Button Component
+- Change website layout (from multi-page to one-page)
+  * Change react-router links to href
+  * Change basic layout (header on left side, main on right)
+  * Update header layout (vertical)
+- Basic Layout for Components:
   * Header (name and links)
   * Footer (contact info)
-  * Resume Sections (Title, headings, text, spacing, columns)
-  * Project Tiles (image, title, tech used, link)
+  * Experience Tile (Title, headings, text, spacing, columns)
+  * Project Tile (image, title, tech used, link)
 - CSS:
-  * Change classic CSS to Tailwind
   * Define spacing and gaps
-  * Define fonts to use.
-- Basic Layout for:
-  * About Page
-  * Projects Page
-  * Resume Page
+- Basic Layout for Sections:
+  * About
+  * Projects
+  * Experience & Education
 - Responsiveness:
   * ...

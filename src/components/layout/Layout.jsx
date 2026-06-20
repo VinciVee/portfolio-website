@@ -11,7 +11,7 @@ const Layout = () => {
     // <div className={"app " + theme}>
     <div className="min-h-screen flex flex-col justify-between text-center">
       <Header />
-      <main className="w-layout my-4 mx-auto flex-grow py-4">
+      <main className="w-layout my-4 mx-auto grow py-4">
         <Outlet />
       </main>
       <Footer />

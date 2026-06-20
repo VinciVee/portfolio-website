@@ -9,11 +9,17 @@
   --color-primary-light: var(--color-cyan-700);
   --color-primary-dark: var(--color-cyan-950);
   /* Brand (to replace primary latter) */
-  --color-brand-100: #2E4749;
-  --color-brand-200: #193132;
-  --color-brand-300: #0E2627;
-  --color-brand-400: #061A1B;
-  --color-brand-500: #010E0F;
+  --color-ocean-50: #f1f4f7;
+  --color-ocean-100: #dbe7ee;
+  --color-ocean-200: #b1d4e2;
+  --color-ocean-300: #8ebecb;
+  --color-ocean-400: #78a8b1;
+  --color-ocean-500: #5f9196;
+  --color-ocean-600: #517379;
+  --color-ocean-700: #3d545a;
+  --color-ocean-800: #2b393f;
+  --color-ocean-900: #171f22;
+  --color-ocean-950: #0f1417;
   /* Text  */
   --color-text: var(--color-sky-50);
   --color-text-muted: var(--color-sky-200);

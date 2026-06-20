@@ -1,7 +1,7 @@
 import CardsList from '../components/features/card/CardsList'
 // import Container from "react-bootstrap/Container";
 
-function ProjectsPage() {
+function Projects() {
   return (
     <>
       <h1>My Projects</h1>
@@ -10,4 +10,4 @@ function ProjectsPage() {
   )
 }
 
-export default ProjectsPage
+export default Projects

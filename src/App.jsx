@@ -4,9 +4,6 @@ import { Routes, Route } from 'react-router'
 // Import pages
 import Layout from './components/layout/Layout'
 import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact'
-import ProjectsPage from './pages/ProjectsPage';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -19,9 +16,9 @@ function App() {
       <Route path="/" element={<Layout />}>
         {/* MAIN PAGES */}
         <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
+        {/* <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="projects" element={<ProjectsPage />} />
+        <Route path="projects" element={<Projects />} /> */}
         {/* ERROR 404 PAGE */}
         <Route path="*" element={<NotFound />} />
       </Route>
