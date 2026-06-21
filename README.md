@@ -12,6 +12,7 @@ This project is actively under development.
 - General
   * Change react-router Links to href
 - Content:
+  * Set up sections
   * Add About
   * Add Projects
   * Add Experience & Education
