@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router';
 
 import Header from './Header'
-import Footer from './Footer'
+// import Footer from './Footer'
 // import useTheme from '../../hooks/useTheme'; // Our Custom Hook
 
 const Layout = () => {
@@ -9,12 +9,12 @@ const Layout = () => {
 
   return (
     // <div className={"app " + theme}>
-    <div className="min-h-screen flex flex-col justify-between text-center">
+    <div className="min-h-screen flex flex-row w-layout py-[4em] mx-auto">
       <Header />
-      <main className="w-layout my-4 mx-auto grow py-4">
+      <main className="w-1/2">
         <Outlet />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

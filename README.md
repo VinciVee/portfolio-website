@@ -3,16 +3,19 @@
 A simple website to showcase my projects and resume.
 
 ## Stack
-React, Vite, Tailwind CSS, React Router Dom
+React, Vite, Tailwind CSS, React Router
 
 ## Status
 This project is actively under development.
 
-**TO DOs:**
-- Change website layout (from multi-page to one-page)
-  * Change react-router links to href
-  * Change basic layout (header on left side, main on right)
-  * Update header layout (vertical)
+**TO DOs:*
+- General
+  * Change react-router Links to href
+- Content:
+  * Add About
+  * Add Projects
+  * Add Experience & Education
+  * Add Colophone
 - Basic Layout for Components:
   * Header (name and links)
   * Footer (contact info)

@@ -4,27 +4,27 @@ import { Link, NavLink } from 'react-router';
 const Header = () => {
 
   return (
-    <header className='w-full'>
-      <div className='w-layout px-0 py-2 flex items-center justify-between mx-auto'>
+    <header className='w-1/2'>
+      <div className='px-2 flex flex-col items-start justify-start mx-auto'>
         {/* Logo */}
         <Link
           to='/'
-          className='text-xl'
+          className='text-2xl font-semibold'
         >
-          logo
+          Vincent Veerapen
         </Link>
 
         {/* Links */}
         <nav className='w-auto' aria-label='Main Navigation'>
-          <ul className='flex justify-around space-x-6'>
+          <ul className='flex flex-col justify-around items-start space-x-6 py-6'>
             <li>
-              <NavLink to='/about' className='text-xl'>about</NavLink>
+              <NavLink to='/about' className='text-lg'>about</NavLink>
             </li>
             <li>
-              <NavLink to='/projects' className='text-xl'>projects</NavLink>
+              <NavLink to='/projects' className='text-lg'>projects</NavLink>
             </li>
             <li>
-              <NavLink to='/resume' className='text-xl'>resume</NavLink>
+              <NavLink to='/resume' className='text-lg'>resume</NavLink>
             </li>
           </ul>
         </nav>

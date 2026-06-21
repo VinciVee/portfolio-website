@@ -5,7 +5,7 @@ import VeeButton from '../components/common/VeeButton';
 const Home = () => {
   return (
     <>
-      <div id="hero-section" className="my-4 mx-auto py-8 px-40">
+      <div id="hero-section" className="mx-auto text-left">
         <h1>Welcome to React Base</h1>
         <p>Our first peer into the React ecosystem & first principles!</p>
         <Link to="/about" className="homeBtn">About Me</Link>
