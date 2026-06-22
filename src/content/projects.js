@@ -1,6 +1,6 @@
 export const projectsContent = [
   {
-    id: 1,
+    id: "proj1",
     name: "Grace Grocery",
     url: "gracegrocery.com.au",
     description: (
@@ -18,7 +18,7 @@ export const projectsContent = [
     ],
   },
   {
-    id: 2,
+    id: "proj2",
     name: "Released Artworks",
     url: "releasedartworks.vercel.app",
     description: (
@@ -34,7 +34,7 @@ export const projectsContent = [
     ],
   },
   {
-    id: 3,
+    id: "proj3",
     name: "Oyez Oyez",
     url: "",
     description: (
@@ -48,7 +48,7 @@ export const projectsContent = [
     ],
   },
   {
-    id: 4,
+    id: "proj4",
     name: "Bob’s Garage",
     url: "",
     description: (
@@ -62,7 +62,7 @@ export const projectsContent = [
     ],
   },
   {
-    id: 5,
+    id: "proj5",
     name: "Application Management System",
     url: "",
     description: (

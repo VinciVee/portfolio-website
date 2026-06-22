@@ -1,6 +1,6 @@
 export const educationContent = [
   {
-    id: 1,
+    id: "ed1",
     timeframe: "2025",
     course: "Diploma of IT – Back-End Web Development",
     institute: "Holmesglen Institute",
@@ -10,7 +10,7 @@ export const educationContent = [
     ]
   },
   {
-    id: 2,
+    id: "ed2",
     timeframe: "2022",
     course: "BEng (Honours) - Robotics and Mechatronics",
     institute: "Swinburne University - Hawthorn & Sarawak (Malaysia)",

@@ -1,5 +1,6 @@
 import CardsList from '../components/features/card/CardsList'
-// import Container from "react-bootstrap/Container";
+// import { projectsContent } from '../content/projects'
+
 
 function Projects() {
   return (
