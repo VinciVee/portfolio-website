@@ -1,22 +1,23 @@
-import { useState } from "react";
-// import { Container } from "react-bootstrap"
+//
 
-import AccordionList from "../components/features/accordion/AccordionList"
 
 function AboutPage() {
   // eslint-disable-next-line no-unused-vars
-  const [panels, setPanels] = useState([
-    { id: 1, title: "What Am I Currently Up To", content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quis libero praesentium repellat quo sequi laborum ducimus quia molestiae blanditiis repellendus voluptatum aliquam, ratione a voluptatem doloribus aperiam? Ad, suscipit." },
-    { id: 2, title: "What Makes Me Code", content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quis libero praesentium repellat quo sequi laborum ducimus quia molestiae blanditiis repellendus voluptatum aliquam, ratione a voluptatem doloribus aperiam? Ad, suscipit." },
-    { id: 3, title: "What Have I Got Involved In", content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quis libero praesentium repellat quo sequi laborum ducimus quia molestiae blanditiis repellendus voluptatum aliquam, ratione a voluptatem doloribus aperiam? Ad, suscipit." },
-  ]);
+
 
   return (
     <>
-      <h1>About Me</h1>
-      <AccordionList
-        panels={panels}
-      />
+      <div>
+        <p>
+          Hi, I’m Vincent — a web development student with a focus on back-end programming (graduating in late 2025). I’m based in Melbourne, AU.
+        </p>
+        <p>
+          Before this, I completed a degree in engineering and worked as a Test/CSV Engineer in the medical device industry.
+        </p>
+        <p>
+          I switched to web development to bring together the things that get me going: programming, design, quality, and building something useful and accessible.
+        </p>
+      </div>
     </>
   )
 }

@@ -13,7 +13,6 @@ This project is actively under development.
   * Change react-router Links to href
 - Content:
   * Set up sections
-  * Add About
   * Add Projects
   * Add Experience & Education
   * Add Colophone
