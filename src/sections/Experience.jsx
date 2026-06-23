@@ -1,28 +1,29 @@
 import CardExperience from "../components/features/card/CardExperience"
-import { experienceContent } from "../content/experience"
 import { educationContent } from "../content/education"
+import { experienceContent } from "../content/experience"
 
 function Experience() {
   return (
-    <div>
-      <h2>Education and Experience</h2>
+    <>
+      <h3>Experience</h3>
       {/* Education */}
       <div>
-        {educationContent.map((item) => {
+        {educationContent.map((course) => (
           <CardExperience
-            key = {item.id}
-            timeframe = {item.timeframe}
-            title = {item.course}
-            subtitle = {item.institute}
-            description = {item.description}
-            tags = {item.tags}
+            key = {course.id}
+            id = {`edu-${course.id}`}
+            timeframe = {course.timeframe}
+            title = {course.courseName}
+            subtitle = {course.institute}
+            description = {course.description}
+            tags = {course.tags}
           />
-        })}
+        ))}
       </div>
 
       {/* Work Experience */}
       <div>
-        {experienceContent.map((item) => {
+        {experienceContent.map((item) => (
           <CardExperience
             key = {item.id}
             timeframe = {item.timeframe}
@@ -31,9 +32,9 @@ function Experience() {
             description = {item.description}
             tags = {item.tags}
           />
-        })}
+        ))}
       </div>
-    </div>
+    </>
   )
 }
 

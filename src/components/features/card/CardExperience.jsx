@@ -1,14 +1,14 @@
 //
 
 // eslint-disable-next-line no-unused-vars
-function CardExperience({timeframe, title, subtitle, description, tags}) {
+function CardExperience({id, timeframe, title, subtitle, description, tags}) {
 
   return (
-    <div>
+    <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-4">
       {/* Left Column: Timeframe */}
-      <div>
+      <header>
         <span>{timeframe}</span>
-      </div>
+      </header>
 
       {/* Right Column: Content */}
       <div>
@@ -16,7 +16,7 @@ function CardExperience({timeframe, title, subtitle, description, tags}) {
         <strong>{subtitle}</strong>
         <p>{description}</p>
       </div>
-    </div>
+    </article>
   )
 }
 

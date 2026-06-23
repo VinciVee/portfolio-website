@@ -5,7 +5,7 @@ import CardsList from '../components/features/card/CardsList'
 function Projects() {
   return (
     <>
-      <h1>My Projects</h1>
+      <h3>My Projects</h3>
       <CardsList />
     </>
   )

@@ -3,8 +3,8 @@
 function About() {
 
   return (
-    <div>
-      <h2>About</h2>
+    <>
+      <h3>About</h3>
       <p>
         Hi, I’m Vincent — a web development student with a focus on back-end programming (graduating in late 2025). I’m based in Melbourne, AU.
       </p>
@@ -14,7 +14,7 @@ function About() {
       <p>
         I switched to web development to bring together the things that get me going: programming, design, quality, and building something useful and accessible.
       </p>
-    </div>
+    </>
   )
 }
 

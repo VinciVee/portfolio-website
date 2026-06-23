@@ -1,8 +1,8 @@
 export const educationContent = [
   {
-    id: "ed1",
+    id: 1,
     timeframe: "2025",
-    course: "Diploma of IT – Back-End Web Development",
+    courseName: "Diploma of IT – Back-End Web Development",
     institute: "Holmesglen Institute",
     description: "Key areas: Full-stack web development, RESTful APIs, authentication and authorisation, responsive design, Agile methodology, software development life cycle (SDLC), database design, MVC architecture.",
     tags: [
@@ -10,9 +10,9 @@ export const educationContent = [
     ]
   },
   {
-    id: "ed2",
+    id: 2,
     timeframe: "2022",
-    course: "BEng (Honours) - Robotics and Mechatronics",
+    courseName: "BEng (Honours) - Robotics and Mechatronics",
     institute: "Swinburne University - Hawthorn & Sarawak (Malaysia)",
     description: "Key areas: microcontrollers, automation, C & C++ programming, image processing. Final year project: Developed an image processing system using MATLAB and computer vision algorithms to identify defects in manufactured parts.",
     tags: [
