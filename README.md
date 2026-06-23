@@ -8,24 +8,30 @@ React, Vite, Tailwind CSS, React Router
 ## Status
 This project is actively under development.
 
-**TO DOs:*
-- General
-  * Change react-router Links to href
+## To do
+**Current:**
+- Projects
+  * Display basic format (without images)
+  * Change ids to numbers; change how to process numbers in sections.
+- Image Stack:
+  * Create folders for each project (for the images)
+  * Upload images for each project and name them based on the *alt*
+  * Create helper function to allocate images.
 - Content:
-  * Set up sections
-  * Add Projects
-  * Add Experience & Education
   * Add Colophone
+  * Link resume.pdf
+  * Add backrooms reference for 404
+- Basic Layout for Sections:
+  * Projects
+
+**Icebox:**
 - Basic Layout for Components:
-  * Header (name and links)
+  * Header (add social media links)
   * Footer (contact info)
   * Experience Tile (Title, headings, text, spacing, columns)
   * Project Tile (image, title, tech used, link)
 - CSS:
   * Define spacing and gaps
-- Basic Layout for Sections:
-  * About
-  * Projects
-  * Experience & Education
+
 - Responsiveness:
   * ...
