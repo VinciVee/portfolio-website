@@ -7,11 +7,10 @@ function Experience() {
     <>
       <h3>Experience</h3>
       {/* Education */}
-      <ul>
+      <ul className="flex flex-col gap-8">
         {educationContent.map((course) => (
-          <li>
+          <li key={`course-${course.id}`}>
             <CardExperience
-              key = {`course-${course.id}`}
               id = {`course-${course.id}`}
               timeframe = {course.timeframe}
               title = {course.courseName}
@@ -24,11 +23,10 @@ function Experience() {
       </ul>
 
       {/* Work Experience */}
-      <ul>
+      <ul className="flex flex-col gap-8">
         {experienceContent.map((role) => (
-          <li>
+          <li key={`role-${role.id}`}>
             <CardExperience
-              key = {`role-${role.id}`}
               id = {`role-${role.id}`}
               timeframe = {role.timeframe}
               title = {role.role}

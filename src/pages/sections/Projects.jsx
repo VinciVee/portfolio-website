@@ -7,12 +7,11 @@ function Projects() {
     <>
       <h3>Projects</h3>
 
-      <ul>
+      <ul className="flex flex-col gap-8">
         {projectsContent.map((project) => (
-          <li>
+          <li key={`project-${project.id}`}>
             <CardProject
-              key = {project.id}
-              id = {`prjct-${project.id}`}
+              id = {`project-${project.id}`}
               name = {project.name}
               url = {project.url}
               description = {project.description}

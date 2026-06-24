@@ -1,6 +1,6 @@
 export const experienceContent = [
   {
-    id: "ex1",
+    id: 0,
     timeframe: "2021-2024",
     role: "CSV Engineer",
     company: "ICT and Quality & Regulatory Team, 4DMedical Limited (Aus)",

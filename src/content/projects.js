@@ -1,6 +1,6 @@
 export const projectsContent = [
   {
-    id: "1",
+    id: "0",
     name: "Grace Grocery",
     url: "gracegrocery.com.au",
     description: "A indian-srilanka grocery story website.",
@@ -10,7 +10,7 @@ export const projectsContent = [
     ],
   },
   {
-    id: "2",
+    id: "1",
     name: "Released Artworks",
     url: "releasedartworks.vercel.app",
     description: "A public-domain artwork aggregator.",
@@ -20,7 +20,7 @@ export const projectsContent = [
     ],
   },
   {
-    id: "3",
+    id: "2",
     name: "Oyez Oyez",
     url: "",
     description: "An e-commerce store.",
@@ -30,7 +30,7 @@ export const projectsContent = [
     ],
   },
   {
-    id: "4",
+    id: "3",
     name: "Bob’s Garage",
     url: "",
     description: "A local autorepair garage website.",
@@ -40,7 +40,7 @@ export const projectsContent = [
     ],
   },
   {
-    id: "5",
+    id: "4",
     name: "Application Management System",
     url: "",
     description: "A research applicant management system.",

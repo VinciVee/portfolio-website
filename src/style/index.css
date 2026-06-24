@@ -30,7 +30,7 @@
   --color-accent-dark: var(--color-rose-900);
 
   /* Layout */
-  --width-layout: clamp(300px,88%,80rem);
+  /* --width-layout: clamp(300px,88%,80rem); */
 }
 
 @layer base {
@@ -44,8 +44,6 @@
   h4 { @apply font-medium text-xl mb-6; }
   p { @apply font-normal text-base mb-6; }
   strong { @apply font-semibold text-base mb-6; }
-
-
 }
 
 

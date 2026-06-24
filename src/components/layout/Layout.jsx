@@ -9,7 +9,7 @@ const Layout = () => {
 
   return (
     // <div className={"app " + theme}>
-    <div className="min-h-screen flex flex-row w-layout py-[4em] mx-auto">
+    <div className="min-h-screen flex flex-row max-w-7xl pbs-8 pbe-16 mx-auto">
       <Header />
       <main className="w-1/2">
         <Outlet />
