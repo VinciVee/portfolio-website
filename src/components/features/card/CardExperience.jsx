@@ -7,7 +7,7 @@ function CardExperience({id, timeframe, title, subtitle, description, tags}) {
     <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-2">
       {/* Left Column: Timeframe */}
       <header className="pe-4">
-        <span>{timeframe}</span>
+        <span className="font-light text-base text-text/80">{timeframe}</span>
       </header>
 
       {/* Right Column: Content */}

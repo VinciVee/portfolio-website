@@ -7,21 +7,21 @@ function CardProject({id, name, url, description, images, techStack}) {
       {/* Left Column: Timeframe */}
       <div>
         <header className="pe-4 overflow-hidden">
-          <ul className="flex flex-wrap gap-2" aria-label="Tech stack used">
-            {techStack.map((tech) => (
-              <li><span>{tech}</span></li>
-            ))}
-          </ul>
+          <a href={url} className="font-light text-base text-text/80">{name}</a>
         </header>
       </div>
 
       {/* Right Column: Content */}
       <div>
-        <a href={url}>{name}</a>
         <div className="flex items-center isolate">
           {/* To do: Image Stack */}
         </div>
         <p>{description}</p>
+        <ul className="flex flex-wrap gap-2" aria-label="Tech stack used">
+          {techStack.map((tech) => (
+            <li><span>{tech}</span></li>
+          ))}
+        </ul>
       </div>
     </article>
   )
