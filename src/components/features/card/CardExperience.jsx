@@ -4,7 +4,7 @@
 function CardExperience({id, timeframe, title, subtitle, description, tags}) {
 
   return (
-    <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-4">
+    <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-2">
       {/* Left Column: Timeframe */}
       <header className="pe-4">
         <span>{timeframe}</span>
@@ -13,7 +13,7 @@ function CardExperience({id, timeframe, title, subtitle, description, tags}) {
       {/* Right Column: Content */}
       <div>
         <h4>{title}</h4>
-        <strong>{subtitle}</strong>
+        <h5>{subtitle}</h5>
         <p>{description}</p>
       </div>
     </article>

@@ -6,8 +6,8 @@ function Experience() {
   return (
     <>
       <h3>Experience</h3>
-      {/* Education */}
-      <ul className="flex flex-col gap-8">
+      <ul className="flex flex-col gap-6">
+        {/* Education */}
         {educationContent.map((course) => (
           <li key={`course-${course.id}`}>
             <CardExperience
@@ -20,10 +20,8 @@ function Experience() {
             />
           </li>
         ))}
-      </ul>
 
-      {/* Work Experience */}
-      <ul className="flex flex-col gap-8">
+        {/* Work Experience */}
         {experienceContent.map((role) => (
           <li key={`role-${role.id}`}>
             <CardExperience

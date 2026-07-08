@@ -38,11 +38,12 @@
     @apply font-display bg-primary-dark text-text antialiased;
   }
 
-  h1 { @apply font-bold text-4xl mb-6; }
-  h2 { @apply font-semibold text-3xl mb-6; }
-  h3 { @apply font-medium text-2xl mb-6; }
-  h4 { @apply font-medium text-xl mb-6; }
-  p { @apply font-normal text-base mb-6; }
+  h1 { @apply font-bold text-5xl mb-1; } /* Title - Name */
+  h2 { @apply font-medium text-[1.75em] mb-5 text-text/65 tracking-wide; } /* Subtitle - Role */
+  h3 { @apply font-medium text-2xl mb-3 mt-10 tracking-wide; } /* Section Names */
+  h4 { @apply font-bold text-xl tracking-wide; } /* Article Titles */
+  h5 { @apply font-medium text-lg mb-2 text-text/60 ; } /* Article Subtitles */
+  p { @apply font-normal text-base text-text/80; }
   strong { @apply font-semibold text-base mb-6; }
 }
 

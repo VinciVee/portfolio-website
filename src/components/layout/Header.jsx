@@ -12,7 +12,9 @@ const Header = () => {
           </Link>
         </h1>
         <h2>Web Developer</h2>
-        <p>Description: what do I do?</p>
+        <p className="lg:max-w-sm">
+          Description: Lorem ipsum dolor sit amet consectetur. Porta vivamus blandit quisque amet rhoncus.
+        </p>
 
         {/* Navigation */}
         <nav className="hidden lg:block" aria-label="In-page jump links">

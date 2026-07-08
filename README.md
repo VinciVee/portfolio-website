@@ -10,10 +10,12 @@ This project is actively under development.
 
 ## To do
 **Current:**
-- Image Stack:
-  * Create folders for each project (for the images)
-  * Upload images for each project and name them based on the *alt*
-  * Create helper function to allocate images.
+- Header
+  * Add social media icons
+  * Add social media links
+- Styling
+  * Fix typography
+  * Fix gaps and spaces
 - Content:
   * Add Colophone
   * Link resume.pdf
@@ -22,18 +24,13 @@ This project is actively under development.
   * Projects
 
 **Icebox:**
-- Projects
-  * Implement Image Stack
-- Header
-  * Make sticky
-  * Add role
-  * Add social media icons
-  * Add social media links
+- Image Stack:
+  * Create folders for each project (for the images)
+  * Upload images for each project and name them based on the *alt*
+  * Create helper function to allocate images.
 - Footer
   * Is it needed?
   * Contact info: just use resume?
-- CSS:
-  * Define spacing and gaps
 - Meta:
   * Website description
   * SEO work: to plan...

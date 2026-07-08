@@ -3,7 +3,7 @@
 function CardProject({id, name, url, description, images, techStack}) {
 
   return (
-    <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-4">
+    <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-2">
       {/* Left Column: Timeframe */}
       <div>
         <header className="pe-4 overflow-hidden">
