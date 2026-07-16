@@ -1,5 +1,5 @@
 import { projectsContent } from '../../content/projects'
-import CardProject from "../../components/features/card/CardProject"
+import ProjectCard from "../../components/features/card/ProjectCard"
 
 
 function Projects() {
@@ -10,7 +10,7 @@ function Projects() {
       <ul className="flex flex-col gap-6">
         {projectsContent.map((project) => (
           <li key={`project-${project.id}`}>
-            <CardProject
+            <ProjectCard
               id = {`project-${project.id}`}
               name = {project.name}
               url = {project.url}

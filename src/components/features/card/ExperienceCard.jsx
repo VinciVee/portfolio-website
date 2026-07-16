@@ -1,7 +1,7 @@
 //
 
 // eslint-disable-next-line no-unused-vars
-function CardExperience({id, timeframe, title, subtitle, description, tags}) {
+function ExperienceCard({id, timeframe, title, subtitle, description, tags}) {
 
   return (
     <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-2">
@@ -20,4 +20,4 @@ function CardExperience({id, timeframe, title, subtitle, description, tags}) {
   )
 }
 
-export default CardExperience
+export default ExperienceCard

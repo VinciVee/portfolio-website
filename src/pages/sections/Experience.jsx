@@ -1,4 +1,4 @@
-import CardExperience from "../../components/features/card/CardExperience"
+import ExperienceCard from "../../components/features/card/ExperienceCard"
 import { educationContent } from "../../content/education"
 import { experienceContent } from "../../content/experience"
 
@@ -10,7 +10,7 @@ function Experience() {
         {/* Education */}
         {educationContent.map((course) => (
           <li key={`course-${course.id}`}>
-            <CardExperience
+            <ExperienceCard
               id = {`course-${course.id}`}
               timeframe = {course.timeframe}
               title = {course.courseName}
@@ -24,7 +24,7 @@ function Experience() {
         {/* Work Experience */}
         {experienceContent.map((role) => (
           <li key={`role-${role.id}`}>
-            <CardExperience
+            <ExperienceCard
               id = {`role-${role.id}`}
               timeframe = {role.timeframe}
               title = {role.role}
