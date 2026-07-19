@@ -11,11 +11,8 @@ This project is actively under development.
 ## To do
 **Current:**
 - Image Stack:
-  * Create folders for each project (for the images)
-  * Take snapshots of website
-  * Convert to Webp
-  * Upload images for each project and name them based on the *alt*
-  * Create helper function to allocate images.
+  * Create component for Image Stack
+  * Create component for Image Card
 - Header
   * Add social media icons
   * Add social media links
