@@ -9,28 +9,39 @@ React, Vite, Tailwind CSS, React Router
 This project is actively under development.
 
 ## To do
-**Current:**
-- Image Stack:
-  * Create component for Image Stack
-  * Create component for Image Card
+**Prototype 1**
+- Projects:
+  * Adjust spacing between projects
+  * Adjust spacing and font within a project
+  * Capture 3-4 screenshots per project (16:9)
+  * Convert images
+  * Create and populate folders
+  * Update project content objects
 - Header
   * Add social media icons
   * Add social media links
 - Content:
   * Add Colophone
   * Link resume.pdf
-  * Add backrooms reference for 404
-- Basic Layout for Sections:
-  * Projects
+  * Add backrooms reference for 404 ("Ended in backrooms")
+- Meta:
+  * Website description
+  * SEO work: to plan...
 
 **Icebox:**
+- Background:
+  * 00s monitor grid styling
+  * Colour?
+- Image Stack:
+  * Add images from other projects
+  * Curve effect: research
+  * Greying effect: research
+  * Half-tone pattern: research
+  * (?)Stack div subtle background + padding
 - Footer
   * Is it needed?
   * Contact info: just use resume?
   * "Layout inspired by Britanny Chiangs'"
-- Meta:
-  * Website description
-  * SEO work: to plan...
 
 - Accessibility
   * ...
