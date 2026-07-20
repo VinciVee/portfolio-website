@@ -4,9 +4,9 @@
 function ExperienceCard({id, timeframe, title, subtitle, description, tags}) {
 
   return (
-    <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr] gap-2">
+    <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr]">
       {/* Left Column: Timeframe */}
-      <header className="pe-4">
+      <header className="shrink-0 w-35.5 basis-1/4 pe-4">
         <span className="font-light text-base text-text/80">{timeframe}</span>
       </header>
 

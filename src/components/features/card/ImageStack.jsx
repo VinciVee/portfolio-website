@@ -2,13 +2,12 @@
 
 function ImageStack({name, images}) {
   const imageArray = Object.entries(images)
-  // const totalImages = imageArray.length
-  const minImageWidth = [19.9, 8, 4, 2, 1]
-  const imageBasis = ['0 0 0','0 1 0','0 2 0','0 3 0','0 4 0']
- // const imageBasis = ['0 0 319px','0 1 auto','0 2 auto','0 3 auto','0 4 auto']
+  const minImageWidth = [40, 8, 4, 2]
+  // const imageBasis = ['0 0 0','0 1 0','0 2 0','0 3 0']
+  const imageBasis = ['0 0 19.9rem','0 1 auto','0 2 auto','0 3 auto','0 4 auto']
 
   return (
-    <div className="flex justify-start h-38 w-full">
+    <div className="flex justify-start h-38 w-full mb-1">
       {Object.entries(images)
         .map(([key, value], index) => (
         // Control amount of each image shown, and
@@ -18,9 +17,9 @@ function ImageStack({name, images}) {
           key={`${name}-${key}`}
           style={{
             flex: imageBasis[index],
-            minWidth: `${minImageWidth[index]}rem`,
+            minWidth: `${minImageWidth[index]}%`,
           }}
-          className="drop-shadow-lg min-w-79"
+          className="drop-shadow-lg min-w-35"
         >
           <img
             src={value}

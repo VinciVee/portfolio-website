@@ -18,8 +18,7 @@ export const projectsContent = [
       home: "src/content/releasedartworks/Released_Artworks-Home_small.webp",
       about: "src/content/releasedartworks/Released_Artworks-About_small.webp",
       departments: "src/content/releasedartworks/Released_Artworks-Departments_small.webp",
-      contact: "src/content/releasedartworks/Released_Artworks-Contact_Us_small.webp",
-      artwork: "src/content/releasedartworks/Released_Artworks-About_small.webp"
+      contact: "src/content/releasedartworks/Released_Artworks-Contact_Us_small.webp"
     },
     techStack: [
       "Next.js","Vite","MongoDB","Sass"
