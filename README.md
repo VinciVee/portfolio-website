@@ -11,12 +11,8 @@ This project is actively under development.
 ## To do
 **Prototype 1**
 - Projects:
-  * Adjust spacing between projects
+  * Update project content JS file
   * Adjust spacing and font within a project
-  * Capture 3-4 screenshots per project (16:9)
-  * Convert images
-  * Create and populate folders
-  * Update project content objects
 - Header
   * Add social media icons
   * Add social media links
