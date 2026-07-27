@@ -4,7 +4,7 @@ function ImageStack({name, images}) {
   const imageArray = Object.entries(images)
 
   return (
-    <div className="flex justify-start h-38 w-full mb-2">
+    <div className="flex justify-start h-38 w-full mb-2 bg-black/25 rounded-lg py-1 px-2">
       {Object.entries(images)
         .map(([key, value], index) => (
         // Control amount of each image shown, and

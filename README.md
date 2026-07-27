@@ -11,10 +11,8 @@ This project is actively under development.
 ## To do
 **Prototype 1**
 - Projects:
-  * Update layout to new one:
-    * Give image stack card a background and rounded corners
-    * Create tech stack component? - style a <span>
-    * Make website link more obvious (add link icon?)
+  * Make website link more obvious (add link icon?)
+  * Greying of images
 - Header
   * Prevent movement (it should be static and not move when scrolling)
   * Add social media icons
@@ -43,6 +41,7 @@ This project is actively under development.
   * Greying effect: research
   * Half-tone pattern: research
   * (?)Stack div subtle background + padding
+  * Add colour to pills
 - Footer
   * Is it needed?
   * Contact info: just use resume?

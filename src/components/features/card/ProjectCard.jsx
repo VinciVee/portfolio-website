@@ -14,23 +14,24 @@ function ProjectCard({id, name, url, subtitle, description, images, techStack}) 
         {/* Image Stack */}
         <ImageStack name={name} images={images} />
 
-        <div>
+        <div className="leading-5.5">
           {/* Project Description */}
           <span className="mb-0">
             {description} Built with{' '}
           </span>
-          <ul className="inline list-none" aria-label="Tech stack used">
+          {/* Tech Stack */}
+          <ul className="inline list-none last:after:content-['.']" aria-label="Tech stack used">
             {techStack.map((tech) => (
               <li
                 key={tech}
-                className="inline after:content-[',_'] last:after:content-['.']"
+                className="inline-block px-3 py-0 mr-1 my-0.5 bg-black/50 rounded-full"
               >
                 {tech}
               </li>
             ))}
           </ul>
+          <span className="-ml-1">.</span>
 
-          {/* Tech Stack */}
         </div>
       </div>
     </article>
