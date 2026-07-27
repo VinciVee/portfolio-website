@@ -32,6 +32,7 @@ This project is actively under development.
 
 **Icebox:**
 - General:
+  * Add portfolio website to projects (?)
   * Add pop of colour (icons or tech stack background/borders)
 - Background:
   * 00s monitor grid styling

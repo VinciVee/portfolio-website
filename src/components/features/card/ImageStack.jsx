@@ -2,7 +2,6 @@
 
 function ImageStack({name, images}) {
   const imageArray = Object.entries(images)
-  const minImageWidth = [40, 8, 4, 1]
 
   return (
     <div className="flex justify-start h-38 w-full mb-2">
@@ -14,9 +13,8 @@ function ImageStack({name, images}) {
           key={`${name}-${key}`}
           style={{
             flex: `0 ${index} content`,
-            minWidth: `${minImageWidth[index]}%`,
           }}
-          className="drop-shadow-lg"
+          className="drop-shadow-lg min-w-4"
         >
           <img
             loading="lazy"
@@ -24,7 +22,7 @@ function ImageStack({name, images}) {
             width="250"
             src={value}
             alt={`${name} ${key} screenshot`}
-            className="h-full object-cover object-right"
+            className="h-full object-cover object-top-right"
           />
         </div>
       ))}
