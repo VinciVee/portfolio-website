@@ -14,6 +14,7 @@ function Projects() {
               id = {`project-${project.id}`}
               name = {project.name}
               url = {project.url}
+              subtitle = {project.subtitle}
               description = {project.description}
               images = {project.images}
               techStack= {project.techStack}

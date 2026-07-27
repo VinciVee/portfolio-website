@@ -1,12 +1,14 @@
 import ImageStack from "./ImageStack"
 
-function ProjectCard({id, name, url, description, images, techStack}) {
+function ProjectCard({id, name, url, subtitle, description, images, techStack}) {
 
   return (
     <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr]">
       {/* Left Column: Timeframe */}
       <header className="shrink-0 w-35.5 basis-1/4 pe-4">
-        <a href={url} className="font-light text-base text-text/80">{name}</a>
+        <a href={url} className="font-light text-base text-text/80">
+          <p>{name}</p>
+        </a>
       </header>
 
       {/* Right Column: Content */}
@@ -14,15 +16,27 @@ function ProjectCard({id, name, url, description, images, techStack}) {
         {/* Image Stack */}
         <ImageStack name={name} images={images} />
 
-        {/* Project Description */}
-        <h5 className="mb-0">{description}</h5>
+        <div>
+          {/* Project Description */}
+          <p className="mb-0">
+            {description}{' '}Built with{' '}
+            {techStack.map((tech) => (
+              <span
+                key={tech}
+                className="after:content-[',_'] last:after:content-['.']"
+              >
+                {tech}
+              </span>
+            ))}
+          </p>
 
-        {/* Tech Stack */}
-        <ul className="flex flex-wrap gap-4" aria-label="Tech stack used">
-          {techStack.map((tech) => (
-            <li><p>{tech}</p></li>
-          ))}
-        </ul>
+          {/* Tech Stack */}
+          {/* <ul className="flex flex-wrap gap-4" aria-label="Tech stack used">
+            {techStack.map((tech) => (
+              <li><p>{tech}</p></li>
+            ))}
+          </ul> */}
+        </div>
       </div>
     </article>
   )

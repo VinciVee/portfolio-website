@@ -3,7 +3,8 @@ export const projectsContent = [
     id: "0",
     name: "Grace Grocery",
     url: "gracegrocery.com.au",
-    description: "A indian-srilanka grocery story website.",
+    subtitle: "A indian-srilanka grocery story website.",
+    description: "Grace Grocery is a live website built a real-client as part of the diploma's Capstone project.",
     images: {
       home: "/images/gracegrocery/Grace_Grocery-Home_small.webp",
       about: "/images/gracegrocery/Grace_Grocery-About_small.webp",
@@ -18,7 +19,8 @@ export const projectsContent = [
     id: "1",
     name: "Released Artworks",
     url: "releasedartworks.vercel.app",
-    description: "A public-domain artwork aggregator.",
+    subtitle: "A public-domain artwork aggregator.",
+    description: "Fetches and filters data from the MET museum’s API and displays open-source artworks on a Next.js website.",
     images: {
       home: "/images/releasedartworks/Released_Artworks-Home_small.webp",
       about: "/images/releasedartworks/Released_Artworks-About_small.webp",
@@ -33,7 +35,8 @@ export const projectsContent = [
     id: "2",
     name: "Oyez Oyez",
     url: "",
-    description: "An e-commerce store.",
+    subtitle: "An e-commerce store.",
+    description: "",
     images: {
       home: "/images/oyezoyez/Oyez_Oyez-Home_small.webp",
       products: "/images/oyezoyez/Oyez_Oyez-Products_Page_small.webp",
@@ -48,7 +51,8 @@ export const projectsContent = [
     id: "3",
     name: "Bob’s Garage",
     url: "",
-    description: "A local autorepair garage website.",
+    subtitle: "A local autorepair garage website.",
+    description: "",
     images: {
       home: "/images/bobsgarage/Bob's_Garage-Home_small.webp",
       about: "/images/bobsgarage/Bob's_Garage-About_small.webp",
@@ -63,7 +67,8 @@ export const projectsContent = [
     id: "4",
     name: "Application Management System",
     url: "",
-    description: "A research applicant management system.",
+    subtitle: "A research applicant management system.",
+    description: "",
     images: {},
     techStack: [
       ".NET Core","SQL","Bootstrap","MVC architecture", "Azure"

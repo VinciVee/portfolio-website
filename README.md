@@ -11,23 +11,35 @@ This project is actively under development.
 ## To do
 **Prototype 1**
 - Projects:
-  * Update project content JS file
-  * Adjust spacing and font within a project
+  * Reduce Website margins
+  * Update layout to new one:
+    * Give image stack card a background and rounded corners
+    * Add subtitle to header
+    * Change description font (add more description)
+    * Blend text stack to description
+    * Create tech stack component? - style a <span>
+    * Make website link more obvious (add link icon?)
 - Header
+  * Prevent movement (it should be static and not move when scrolling)
   * Add social media icons
   * Add social media links
 - Content:
-  * Add Colophone
+  * Add Colophone (Built with Next.js...)
   * Link resume.pdf
+- 404:
+  * Remove header from 404 page
   * Add backrooms reference for 404 ("Ended in backrooms")
 - Meta:
   * Website description
-  * SEO work: to plan...
+  * Check page name and other meta details
+
 
 **Icebox:**
+- General:
+  * Add pop of colour (icons or tech stack background/borders)
 - Background:
   * 00s monitor grid styling
-  * Colour?
+  * Colour - dusty dark brown or dark grey
 - Image Stack:
   * Add images from other projects
   * Curve effect: research
