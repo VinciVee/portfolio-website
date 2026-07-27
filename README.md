@@ -11,12 +11,8 @@ This project is actively under development.
 ## To do
 **Prototype 1**
 - Projects:
-  * Reduce Website margins
   * Update layout to new one:
     * Give image stack card a background and rounded corners
-    * Add subtitle to header
-    * Change description font (add more description)
-    * Blend text stack to description
     * Create tech stack component? - style a <span>
     * Make website link more obvious (add link icon?)
 - Header

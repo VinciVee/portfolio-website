@@ -5,10 +5,8 @@ function ProjectCard({id, name, url, subtitle, description, images, techStack}) 
   return (
     <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_3fr]">
       {/* Left Column: Timeframe */}
-      <header className="shrink-0 w-35.5 basis-1/4 pe-4">
-        <a href={url} className="font-light text-base text-text/80">
-          <p>{name}</p>
-        </a>
+      <header className="shrink-0 basis-1/4 pe-6">
+        <a href={url}><p>{name}</p></a>
       </header>
 
       {/* Right Column: Content */}
@@ -18,24 +16,21 @@ function ProjectCard({id, name, url, subtitle, description, images, techStack}) 
 
         <div>
           {/* Project Description */}
-          <p className="mb-0">
-            {description}{' '}Built with{' '}
+          <span className="mb-0">
+            {description} Built with{' '}
+          </span>
+          <ul className="inline list-none" aria-label="Tech stack used">
             {techStack.map((tech) => (
-              <span
+              <li
                 key={tech}
-                className="after:content-[',_'] last:after:content-['.']"
+                className="inline after:content-[',_'] last:after:content-['.']"
               >
                 {tech}
-              </span>
+              </li>
             ))}
-          </p>
+          </ul>
 
           {/* Tech Stack */}
-          {/* <ul className="flex flex-wrap gap-4" aria-label="Tech stack used">
-            {techStack.map((tech) => (
-              <li><p>{tech}</p></li>
-            ))}
-          </ul> */}
         </div>
       </div>
     </article>
