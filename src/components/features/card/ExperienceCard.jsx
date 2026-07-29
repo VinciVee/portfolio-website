@@ -7,7 +7,7 @@ function ExperienceCard({id, timeframe, title, subtitle, description, tags}) {
     <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_4fr]">
       {/* Left Column: Timeframe */}
       <header className="shrink-0 w-35.5 basis-1/5 pe-4">
-        <span className="font-light text-base text-text/70">{timeframe}</span>
+        <span className="font-light text-xs text-text/70">{timeframe}</span>
       </header>
 
       {/* Right Column: Content */}

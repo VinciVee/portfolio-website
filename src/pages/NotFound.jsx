@@ -2,7 +2,7 @@
 import { Link } from 'react-router';
 import { FiHome } from 'react-icons/fi'
 
-import frogNotFound from '../assets/frogNotFound.svg'
+import frogNotFound from '/frogNotFound.svg'
 
 const NotFound = () => {
   return (
