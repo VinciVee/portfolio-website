@@ -5,7 +5,7 @@ import ProjectCard from "../../components/features/card/ProjectCard"
 function Projects() {
   return (
     <>
-      <h3>Projects</h3>
+      <h3 className="lg:hidden">Projects</h3>
 
       <ul className="flex flex-col gap-12">
         {projectsContent.map((project) => (

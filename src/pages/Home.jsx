@@ -8,15 +8,15 @@ import Projects from './sections/Projects'
 const Home = () => {
   return (
     <>
-      <section id="about" className="mb-12">
+      <section id="about" className="mb-24">
         <About />
       </section>
 
-      <section id="experience" className="mb-12">
+      <section id="experience" className="mb-24">
         <Experience />
       </section>
 
-      <section id="projects" className="mb-12">
+      <section id="projects" className="mb-24">
         <Projects />
       </section>
     </>

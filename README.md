@@ -11,12 +11,10 @@ This project is actively under development.
 ## To do
 **Prototype 1**
 - Projects:
-  * Make website link more obvious (add link icon?)
-  * Greying of images
+  * Update layout
 - Header
-  * Prevent movement (it should be static and not move when scrolling)
-  * Add social media icons
-  * Add social media links
+  * Nav: scrolling animation
+  * Nav: font and colour
 - Content:
   * Add Colophone (Built with Next.js...)
   * Link resume.pdf
@@ -26,6 +24,10 @@ This project is actively under development.
 - Meta:
   * Website description
   * Check page name and other meta details
+- Test:
+  * Responsiveness (ipad, mobile, safari, chrome)
+  * links
+  * lighthouse stats
 
 
 **Icebox:**

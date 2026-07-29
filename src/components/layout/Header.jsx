@@ -1,10 +1,11 @@
 import { Link, NavLink } from 'react-router';
-// import { RiReactjsLine } from "react-icons/ri"
+import { FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 const Header = () => {
 
   return (
-    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between">
+    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between px-8 py-12 md:p-16 lg:py-24">
       <div>
         <h1 className="">
           <Link to="/">
@@ -32,10 +33,20 @@ const Header = () => {
         </nav>
       </div>
 
-      {/* social media links */}
-      <ul>
-
-      </ul>
+      <IconContext.Provider value={{ size: "1.5em" }}>
+        {/* social media links */}
+        <ul className="flex flex-row flex-nowrap gap-6 list-none">
+          <li>
+            <a href="https://www.linkedin.com/in/gvveerapen/"><FaLinkedin /></a>
+          </li>
+          <li>
+            <a href="https://github.com/VinciVee"><FaGithub /></a>
+          </li>
+          <li>
+            <a href="https://codepen.io/VinciVee"><FaCodepen /></a>
+          </li>
+        </ul>
+      </IconContext.Provider>
     </header>
   )
 }

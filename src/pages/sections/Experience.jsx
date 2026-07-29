@@ -5,7 +5,7 @@ import { experienceContent } from "../../content/experience"
 function Experience() {
   return (
     <>
-      <h3>Experience</h3>
+      <h3 className="lg:hidden">Experience</h3>
       <ul className="flex flex-col gap-6">
         {/* Education */}
         {educationContent.map((course) => (

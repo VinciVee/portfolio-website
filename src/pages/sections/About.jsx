@@ -4,7 +4,7 @@ function About() {
 
   return (
     <>
-      <h3>About</h3>
+      <h3 className="lg:hidden">About</h3>
       <div className="flex flex-col gap-6">
         <p>
           Hi, I’m Vincent — a web development student with a focus on back-end programming (graduating in late 2025). I’m based in Melbourne, AU.
