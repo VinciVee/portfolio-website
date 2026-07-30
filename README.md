@@ -12,9 +12,9 @@ This project is actively under development.
 **Prototype 1**
 - Projects:
   * Update layout
-- Header
-  * Nav: scrolling animation
-  * Nav: font and colour
+- Polish
+  * Nav font
+  * Styles font colours
 - Meta:
   * Website description
   * Check page name and other meta details

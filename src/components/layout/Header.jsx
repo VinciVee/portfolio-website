@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router';
 import { FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import Navbar from "../features/Navbar";
 
 const Header = () => {
 
@@ -18,19 +19,7 @@ const Header = () => {
         </p>
 
         {/* Navigation */}
-        <nav className="hidden lg:block" aria-label="In-page jump links">
-          <ul className="flex flex-col justify-around items-start space-x-6 py-6">
-            <li>
-              <NavLink to="/about" className="text-lg">about</NavLink>
-            </li>
-            <li>
-              <NavLink to="/projects" className="text-lg">projects</NavLink>
-            </li>
-            <li>
-              <NavLink to="/resume" className="text-lg">resume</NavLink>
-            </li>
-          </ul>
-        </nav>
+        <Navbar />
       </div>
 
       <IconContext.Provider value={{ size: "1.5em" }}>
