@@ -14,14 +14,11 @@ function App() {
     <Routes>
       {/* MAIN LAYOUT WRAPPER & ROUTED CHILDREN */}
       <Route path="/" element={<Layout />}>
-        {/* MAIN PAGES */}
+        {/* MAIN PAGE */}
         <Route index element={<Home />} />
-        {/* <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="projects" element={<Projects />} /> */}
-        {/* ERROR 404 PAGE */}
-        <Route path="*" element={<NotFound />} />
       </Route>
+      {/* ERROR 404 PAGE */}
+      <Route path="*" element={<NotFound />} />
     </Routes>
   )
 }

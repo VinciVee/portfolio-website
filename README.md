@@ -15,12 +15,6 @@ This project is actively under development.
 - Header
   * Nav: scrolling animation
   * Nav: font and colour
-- Content:
-  * Add Colophone (Built with Next.js...)
-  * Link resume.pdf
-- 404:
-  * Remove header from 404 page
-  * Add backrooms reference for 404 ("Ended in backrooms")
 - Meta:
   * Website description
   * Check page name and other meta details
