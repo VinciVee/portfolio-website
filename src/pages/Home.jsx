@@ -7,7 +7,7 @@ import Projects from './sections/Projects'
 
 const Home = () => {
   return (
-    <main>
+    <>
       <section id="about" className="mb-24">
         <About />
       </section>
@@ -19,7 +19,7 @@ const Home = () => {
       <section id="experience" className="mb-24">
         <Experience />
       </section>
-    </main>
+    </>
   )
 }
 

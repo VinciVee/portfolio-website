@@ -5,7 +5,7 @@ function ImageStack({name, images}) {
   const opacityStyles = ['opacity-100', 'opacity-80', 'opacity-60', 'opacity-40']
 
   return (
-    <div className="group flex justify-start h-38 max-w-75 overflow-visible bg-black/25 p-1 rounded-sm perspective-distant perspective-origin-center">
+    <div className="group flex justify-start h-38 overflow-visible perspective-distant perspective-origin-center">
       {Object.entries(images)
         .map(([key, value], index) => (
           // Control amount of each image shown, and
@@ -15,9 +15,9 @@ function ImageStack({name, images}) {
             style={{
               flex: `0 ${index} content`,
               zIndex: imageArray.length - index,
-              minWidth: `${8 / index}%`
+              minWidth: `${16 / index}%`
             }}
-            className="drop-shadow-[3px_10px_8px_rgba(0,0,0,0.25)] min-w-2 bg-gray-600 origin-left -rotate-y-6 group-hover:rotate-y-0 duration-400 ease-in-out"
+            className="drop-shadow-[3px_10px_8px_rgba(0,0,0,0.25)] min-w-2 bg-gray-600 origin-left rotate-y-0 group-hover:-rotate-y-6 duration-400 ease-in-out"
           >
             <img
               src={value}

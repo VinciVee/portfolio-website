@@ -31,7 +31,7 @@
 
   /* Layout */
   /* --width-layout: clamp(300px,88%,80rem); */
-  --width-text: clamp(45ch, 60vw, 75ch);
+  --width-text: clamp(43ch, 100%, 75ch);
 }
 
 @layer base {
@@ -44,7 +44,7 @@
   h3 { @apply font-medium text-2xl mb-3 mt-10 tracking-wide; } /* Section Names */
   h4 { @apply font-bold text-lg tracking-wide; } /* Article Titles */
   h5 { @apply font-medium text-lg mb-2 text-text/60 ; } /* Article Subtitles */
-  p { @apply font-normal text-base text-text/80; }
+  p { @apply font-normal text-base text-text/80 w-text text-justify; }
   strong { @apply font-semibold text-base mb-6; }
 }
 

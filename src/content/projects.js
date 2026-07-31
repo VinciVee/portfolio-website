@@ -44,7 +44,7 @@ export const projectsContent = [
       signUp: "/images/oyezoyez/Oyez_Oyez-Sign_Up_small.webp"
     },
     techStack: [
-      "Google Firestore","Express","React","Node.js", "TanStack Query", "Vanilla Extract"
+      "G. Firestore","Express","React","Node.js", "Vanilla Extr."
     ],
   },
   {
@@ -60,7 +60,7 @@ export const projectsContent = [
       login: "/images/bobsgarage/Bob's_Garage-Login_small.webp"
     },
     techStack: [
-      "React","Node.js","Express","MySQL", "Redux", "Vanilla Extract"
+      "React","Node.js","Express","MySQL", "Vanilla Extract"
     ],
   },
   {
@@ -71,7 +71,7 @@ export const projectsContent = [
     description: "",
     images: {},
     techStack: [
-      ".NET Core","SQL","Bootstrap","MVC architecture", "Azure"
+      ".NET Core","SQL", "MVC architecture", "Azure"
     ],
   },
 ]

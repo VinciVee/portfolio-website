@@ -4,17 +4,17 @@
 function ExperienceCard({id, timeframe, title, subtitle, description, tags}) {
 
   return (
-    <article id={id} className="grid grid-cols-1 md:grid-cols-[1fr_4fr]">
+    <article id={id} className="grid grid-flow-row auto-rows-min grid-cols-1 items-start md:items-baseline md:grid-cols-[minmax(9em,1fr)_5fr] md:gap-6">
       {/* Left Column: Timeframe */}
-      <header className="shrink-0 w-35.5 basis-1/5 pe-4">
-        <span className="font-light text-xs text-text/70">{timeframe}</span>
+      <header className="row-start-1 col-span-1">
+        <span className="uppercase font-light text-xs tracking-wider text-text/70">{timeframe}</span>
       </header>
 
       {/* Right Column: Content */}
-      <div>
+      <div className="col-span-1 md:col-start-2">
         <h4>{title}</h4>
         <h5>{subtitle}</h5>
-        <p>{description}</p>
+        <p className="w-full">{description}</p>
       </div>
     </article>
   )
