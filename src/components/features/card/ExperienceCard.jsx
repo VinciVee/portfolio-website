@@ -4,10 +4,10 @@
 function ExperienceCard({id, timeframe, title, subtitle, description, tags}) {
 
   return (
-    <article id={id} className="grid grid-flow-row auto-rows-min grid-cols-1 items-start md:items-baseline md:grid-cols-[minmax(9em,1fr)_5fr] md:gap-6">
+    <article id={id} className="grid grid-flow-row auto-rows-min grid-cols-1 items-start md:items-baseline md:grid-cols-[minmax(8.5em,1fr)_4fr] md:gap-6">
       {/* Left Column: Timeframe */}
       <header className="row-start-1 col-span-1">
-        <span className="uppercase font-light text-xs tracking-wider text-text/70">{timeframe}</span>
+        <span className="uppercase font-medium tracking-wider text-xs text-text/50">{timeframe}</span>
       </header>
 
       {/* Right Column: Content */}

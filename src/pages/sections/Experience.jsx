@@ -7,7 +7,7 @@ function Experience() {
   return (
     <>
       <h3 className="lg:hidden">Experience</h3>
-      <ul className="flex flex-col gap-6 mb-6">
+      <ul className="flex flex-col gap-6 mb-10">
         {/* Education */}
         {educationContent.map((course) => (
           <li key={`course-${course.id}`}>
@@ -36,14 +36,16 @@ function Experience() {
           </li>
         ))}
       </ul>
+
+      {/* PDF Link */}
       <a
-        href="/G_Vincent_Veerapen-Resume.pdf"
-        download="Veerapen_Resume.pdf"
+        href="/resume.pdf"
+        download="Vincent_Veerapen_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="group hover:underline">
+        className="group hover:underline underline-offset-4">
         <strong>
-          View Full Resumé <HiMiniArrowUpRight className="inline size-5.5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform ease-out duration-200"/>
+          View Full Resumé <HiMiniArrowUpRight className="pb-0.5 inline size-4.5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform ease-out duration-200"/>
         </strong>
       </a>
     </>

@@ -8,22 +8,23 @@ const Header = () => {
   return (
     <>
       <div className="mb-10">
-        <h1 className="w-max">
+        <h1 className="w-max text-white/90">
           <Link to="/">
             Vincent Veerapen
           </Link>
         </h1>
         <h2>Web Developer</h2>
         <p className="max-w-[36ch] text-left">
-          Description: Lorem ipsum dolor sit amet consectetur. Porta vivamus blandit quisque amet rhoncus.
+         Welcome to my website.
         </p>
+        {/* I build reliable websites with distinct character. */}
 
         {/* Navigation */}
         <Navbar />
       </div>
 
       <IconContext.Provider value={{ size: "1.5em" }}>
-        {/* social media links */}
+        {/* Social media links */}
         <ul className="flex flex-row flex-nowrap gap-6 list-none">
           <li>
             <a href="https://www.linkedin.com/in/gvveerapen/"><FaLinkedin /></a>

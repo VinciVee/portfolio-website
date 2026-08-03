@@ -3,7 +3,7 @@ export const projectsContent = [
     id: "0",
     name: "Grace Grocery",
     url: "gracegrocery.com.au",
-    subtitle: "A indian-srilanka grocery story website.",
+    subtitle: "A indian-srilanka grocery store website.",
     description: "Grace Grocery is a live website built a real-client as part of the diploma's Capstone project.",
     images: {
       home: "/images/gracegrocery/Grace_Grocery-Home_small.webp",
@@ -19,7 +19,7 @@ export const projectsContent = [
     id: "1",
     name: "Released Artworks",
     url: "releasedartworks.vercel.app",
-    subtitle: "A public-domain artwork aggregator.",
+    subtitle: "A public-domain artwork aggregator",
     description: "Fetches and filters data from the MET museum’s API and displays open-source artworks on a Next.js website.",
     images: {
       home: "/images/releasedartworks/Released_Artworks-Home_small.webp",
@@ -34,8 +34,8 @@ export const projectsContent = [
   {
     id: "2",
     name: "Oyez Oyez",
-    url: "",
-    subtitle: "An e-commerce store.",
+    url: "#",
+    subtitle: "An e-commerce store",
     description: "",
     images: {
       home: "/images/oyezoyez/Oyez_Oyez-Home_small.webp",
@@ -50,8 +50,8 @@ export const projectsContent = [
   {
     id: "3",
     name: "Bob’s Garage",
-    url: "",
-    subtitle: "A local autorepair garage website.",
+    url: "#",
+    subtitle: "A local autorepair garage website",
     description: "",
     images: {
       home: "/images/bobsgarage/Bob's_Garage-Home_small.webp",
@@ -61,17 +61,6 @@ export const projectsContent = [
     },
     techStack: [
       "React","Node.js","Express","MySQL", "Vanilla Extract"
-    ],
-  },
-  {
-    id: "4",
-    name: "Application Management System",
-    url: "",
-    subtitle: "A research applicant management system.",
-    description: "",
-    images: {},
-    techStack: [
-      ".NET Core","SQL", "MVC architecture", "Azure"
     ],
   },
 ]

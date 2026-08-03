@@ -10,11 +10,14 @@ This project is actively under development.
 
 ## To do
 **Prototype 1**
-- Projects:
-  * Update layout
+- Add Content:
+  * Short bio in header.
+  * Experiences: add text to flesh out experiences and read more casually (not resume like)
+  * Projects: add text for websites
+  * Website icon
 - Polish
-  * Nav font
-  * Styles font colours
+  * Background/Theme
+  * Font sizes and colours
 - Meta:
   * Website description
   * Check page name and other meta details
