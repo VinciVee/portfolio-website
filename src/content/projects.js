@@ -4,7 +4,7 @@ export const projectsContent = [
     name: "Grace Grocery",
     url: "gracegrocery.com.au",
     subtitle: "A indian-srilanka grocery store website.",
-    description: "Grace Grocery is a live website built a real-client as part of the diploma's Capstone project.",
+    description: "An Indian and Sri Lankan grocery store website built for the Grace Grocery chain. The website was designed around the client's existing branding, provided content, and requested features. A custom child theme was developed for styling and optimisation. WooCommerce was added to allow for easier product addition and management.",
     images: {
       home: "/images/gracegrocery/Grace_Grocery-Home_small.webp",
       about: "/images/gracegrocery/Grace_Grocery-About_small.webp",
@@ -20,7 +20,7 @@ export const projectsContent = [
     name: "Released Artworks",
     url: "releasedartworks.vercel.app",
     subtitle: "A public-domain artwork aggregator",
-    description: "Fetches and filters data from the MET museum’s API and displays open-source artworks on a Next.js website.",
+    description: "A public-domain artwork aggregator. The web app fetches the list of artworks from the Met Museum's API, stores it in a MongoDB database, and displays it in a masonry-style gallery.",
     images: {
       home: "/images/releasedartworks/Released_Artworks-Home_small.webp",
       about: "/images/releasedartworks/Released_Artworks-About_small.webp",
@@ -36,7 +36,7 @@ export const projectsContent = [
     name: "Oyez Oyez",
     url: "#",
     subtitle: "An e-commerce store",
-    description: "",
+    description: "A full-stack e-commerce website using Google Firestore to store product and user info and Cloudinary as image database. Built with authentication and authorisation, state management and a content management system.",
     images: {
       home: "/images/oyezoyez/Oyez_Oyez-Home_small.webp",
       products: "/images/oyezoyez/Oyez_Oyez-Products_Page_small.webp",
@@ -52,7 +52,7 @@ export const projectsContent = [
     name: "Bob’s Garage",
     url: "#",
     subtitle: "A local autorepair garage website",
-    description: "",
+    description: "A full-stack local auto-repair garage website with a MySQL database. Built with authentication and authorisation features, state management, a content management system and an admin dashboard.",
     images: {
       home: "/images/bobsgarage/Bob's_Garage-Home_small.webp",
       about: "/images/bobsgarage/Bob's_Garage-About_small.webp",

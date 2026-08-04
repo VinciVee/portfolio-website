@@ -1,0 +1,19 @@
+{
+  "name":"Vincent Veerapen",
+  "short_name":"vincentvee",
+  "icons":[
+    {
+      "src":"/apple-touch-icon.png",
+      "sizes":"180x180",
+      "type":"image/png"
+    },
+    {
+      "src":"/GVV_logo.svg",
+      "sizes":"any",
+      "type":"image/svg+xml"
+    }
+  ],
+  "theme_color":"#053345",
+  "background_color":"#053345",
+  "display":"standalone"
+}
