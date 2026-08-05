@@ -44,7 +44,7 @@ export const projectsContent = [
       signUp: "/images/oyezoyez/Oyez_Oyez-Sign_Up_small.webp"
     },
     techStack: [
-      "G. Firestore","Express","React","Node.js", "Vanilla Extr."
+      "Firestore","Express","React","Node.js"
     ],
   },
   {
@@ -60,7 +60,7 @@ export const projectsContent = [
       login: "/images/bobsgarage/Bob's_Garage-Login_small.webp"
     },
     techStack: [
-      "React","Node.js","Express","MySQL", "Vanilla Extract"
+      "React","Node.js","Express","MySQL"
     ],
   },
 ]
