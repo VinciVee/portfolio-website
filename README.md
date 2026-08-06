@@ -10,17 +10,19 @@ This project is actively under development.
 
 ## To do
 **Prototype 1**
-- Add Content:
-  * Short bio in header.
-  * Experiences: add text to flesh out experiences and read more casually (not resume like)
-  * Projects: add text for websites
-  * Website icon
+- Font
+  * Adjust font sizes for cards (title, subtitle and paragraphs)
+  * Adjust font colours in index.css
+  * Connect all text to index.css
+- Image Stack:
+  * Change to a simple grid??
 - Polish
   * Background/Theme
   * Font sizes and colours
-- Meta:
-  * Website description
-  * Check page name and other meta details
+  * Move education in experience content
+  * Adjust education content (change from bullet points to paragraph)
+  * Add easier link for resume (in Header)
+  * Add logo in Header
 - Test:
   * Responsiveness (ipad, mobile, safari, chrome)
   * links
@@ -29,25 +31,17 @@ This project is actively under development.
 
 **Icebox:**
 - General:
-  * Add portfolio website to projects (?)
+  * Add portfolio website to projects (?) - Do this for resume
   * Add pop of colour (icons or tech stack background/borders)
+  * Tech Stack: change layout to underneath text
+  * Tech Stack: change colour and texture (grainy?)
+  * Add credits for images
 - Background:
-  * 00s monitor grid styling
-  * Colour - dusty dark brown or dark grey
+  * Colour - dark colour
+  * Use blurred layers like a pattern
 - Image Stack:
-  * Add images from other projects
-  * Curve effect: research
-  * Greying effect: research
   * Half-tone pattern: research
   * (?)Stack div subtle background + padding
-  * Add colour to pills
-- Footer
-  * Is it needed?
-  * Contact info: just use resume?
-  * "Layout inspired by Britanny Chiangs'"
 
 - Accessibility
-  * ...
-
-- Responsiveness:
-  * ...
+  * Add skip to content button

@@ -48,7 +48,7 @@
     background-size:100% 16px, 3px 100%;
   } */
 
-  h1 { @apply font-bold tracking-wider leading-tight text-[2.5em] mb-0; } /* Title - Name */
+  h1 { @apply font-extrabold tracking-wider leading-tight text-[2.5em] mb-0; } /* Title - Name */
   h2 { @apply font-medium text-[1.75em] tracking-wider leading-tight mb-5 mt-0 text-text/65; } /* Subtitle - Role */
   h3 { @apply font-medium text-2xl mb-3 mt-10 tracking-wide; } /* Section Names */
   h4 { @apply font-bold text-lg tracking-wide; } /* Article Titles */

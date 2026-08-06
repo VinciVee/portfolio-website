@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <div className="mb-10">
-        <h1 className="w-max text-white/90">
+        <h1>
           <Link to="/">
             Vincent Veerapen
           </Link>
