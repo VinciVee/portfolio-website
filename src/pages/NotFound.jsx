@@ -7,7 +7,7 @@ const NotFound = () => {
 
       {/* Left Text */}
       <div className="z-10 text-left mb-0 lg:mb-2">
-        <h1 className="mb-0 text-white/40">404</h1>
+        <h1>404</h1>
         <p>It seems you went off the map...</p>
       </div>
 
@@ -18,7 +18,7 @@ const NotFound = () => {
           alt="notfound"
           height="960"
           width="1440"
-          className="h-[50vh] object-none mask-radial-at-center mask-radial-from-10% mask-radial-to-80% bg-primary-dark"
+          className="h-[50vh] object-none mask-radial-at-center mask-radial-from-10% mask-radial-to-80% bg-primary-bg"
         />
       </div>
 

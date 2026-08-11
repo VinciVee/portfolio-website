@@ -11,9 +11,9 @@ This project is actively under development.
 ## To do
 **Prototype 1**
 - Font
-  * Adjust font sizes for cards (title, subtitle and paragraphs)
-  * Adjust font colours in index.css
   * Connect all text to index.css
+  * Connect all colours to index.css
+  * Adjust font sizes for cards (title, subtitle and paragraphs)
 - Image Stack:
   * Change to a simple grid??
 - Polish
@@ -27,6 +27,10 @@ This project is actively under development.
   * Responsiveness (ipad, mobile, safari, chrome)
   * links
   * lighthouse stats
+- Colophon:
+  * Add colophone in footer
+  * Add Assets to credit people
+  * Add that site in a work in progress
 
 
 **Icebox:**

@@ -7,23 +7,9 @@
   /* Primary (background, buttons, borders) */
   --color-primary: var(--color-cyan-800);
   --color-primary-light: var(--color-cyan-700);
-  --color-primary-dark: var(--color-cyan-950);
-  /* Brand (to replace primary latter) */
-  --color-ocean-50: #f1f4f7;
-  --color-ocean-100: #dbe7ee;
-  --color-ocean-200: #b1d4e2;
-  --color-ocean-300: #8ebecb;
-  --color-ocean-400: #78a8b1;
-  --color-ocean-500: #5f9196;
-  --color-ocean-600: #517379;
-  --color-ocean-700: #3d545a;
-  --color-ocean-800: #2b393f;
-  --color-ocean-900: #171f22;
-  --color-ocean-950: #0f1417;
+  --color-primary-bg: var(--color-cyan-950);
   /* Text  */
-  --color-text: var(--color-sky-50);
-  --color-text-muted: var(--color-sky-200);
-  --color-text-heading: var(--color-sky-600);
+  --color-text: var(--color-cyan-50);
   /* Accent (links) */
   --color-accent: var(--color-rose-700);
   --color-accent-light: var(--color-rose-500);
@@ -36,7 +22,7 @@
 
 @layer base {
   body {
-    @apply relative isolate min-h-screen font-display bg-primary-dark text-text antialiased;
+    @apply relative isolate min-h-screen font-display bg-primary-bg text-text antialiased;
   }
 
   /* body::before {
@@ -48,11 +34,11 @@
     background-size:100% 16px, 3px 100%;
   } */
 
-  h1 { @apply font-extrabold tracking-wider leading-tight text-[2.5em] mb-0; } /* Title - Name */
-  h2 { @apply font-medium text-[1.75em] tracking-wider leading-tight mb-5 mt-0 text-text/65; } /* Subtitle - Role */
-  h3 { @apply font-medium text-2xl mb-3 mt-10 tracking-wide; } /* Section Names */
-  h4 { @apply font-bold text-lg tracking-wide; } /* Article Titles */
-  h5 { @apply font-medium text-lg mb-2 text-text/60 ; } /* Article Subtitles */
+  h1 { @apply font-extrabold text-[2.5em] text-text/90 tracking-wider leading-tight  mb-0; } /* Title - Name */
+  h2 { @apply font-medium text-[1.75em]  text-text/65 tracking-wider leading-tight mb-5 mt-0; } /* Subtitle - Role */
+  h3 { @apply font-medium text-2xl text-text/90 mb-3 mt-10 tracking-wide; } /* Section Names */
+  h4 { @apply font-bold text-lg text-text/90 tracking-wide; } /* Article Titles */
+  h5 { @apply font-medium text-lg  text-text/55 mb-2; } /* Article Subtitles */
   p { @apply font-normal text-base text-text/80 text-justify; }
   strong { @apply font-semibold text-base mb-6; }
 }

@@ -25,7 +25,7 @@ function ProjectCard({id, name, url, subtitle, description, images, techStack}) 
           {/* Tech Stack */}
           <ul className="md:flex-[1_0_40%] w-max list-none flex justify-start items-start gap-4 md:flex-col md:justify-end md:items-end md:gap-0 py-1.5 pr-2 m-0" aria-label="Tech stack used">
             {techStack.map((tech) => (
-              <li key={tech} className="text-xs font-mono tracking-wider text-white/60 text-nowrap">{tech}</li>
+              <li key={tech} className="text-xs font-mono tracking-wider text-text/70 text-nowrap">{tech}</li>
             ))}
           </ul>
         </div>

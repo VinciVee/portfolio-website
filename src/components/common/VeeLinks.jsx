@@ -9,7 +9,7 @@ function VeeLinks({ to, children }) {
       className={({ isActive, isPending }) => (
         isActive ? `${baseStyles} `:
         isPending ? `${baseStyles} animate-pulse opacity-70 pointer-events-none`:
-        `${baseStyles} bg-none border border-white hover:bg-primary-light text-white focus:ring-accent`
+        `${baseStyles} bg-none border border-white hover:bg-primary-light text-text focus:ring-accent`
       )}
     >
       {children}

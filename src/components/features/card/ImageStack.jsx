@@ -17,7 +17,7 @@ function ImageStack({name, images}) {
               zIndex: imageArray.length - index,
               minWidth: `${16 / index}%`
             }}
-            className="drop-shadow-[3px_10px_8px_rgba(0,0,0,0.25)] min-w-2 bg-gray-600 origin-left rotate-y-0 group-hover:-rotate-y-6 duration-400 ease-in-out"
+            className="drop-shadow-[3px_10px_8px_rgba(0,0,0,0.25)] min-w-2 bg-primary-bg/80 origin-left rotate-y-0 group-hover:-rotate-y-6 duration-400 ease-in-out"
           >
             <img
               src={value}

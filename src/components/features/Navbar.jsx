@@ -35,7 +35,7 @@ function Navbar() {
         <li>
           <a
             href="#about"
-            className={ activeSection === "about" ? "underline text-white" : "no-underline text-white/70" }
+            className={ activeSection === "about" ? "underline text-text" : "no-underline text-text/70" }
           >
             about
           </a>
@@ -43,7 +43,7 @@ function Navbar() {
         <li>
           <a
             href="#projects"
-            className={ activeSection === "projects" ? "underline text-white" : "no-underline text-white/70" }
+            className={ activeSection === "projects" ? "underline text-text" : "no-underline text-text/70" }
           >
             projects
           </a>
@@ -51,7 +51,7 @@ function Navbar() {
         <li>
           <a
             href="#experience"
-            className={ activeSection === "experience" ? "underline text-white" : "no-underline text-white/70" }
+            className={ activeSection === "experience" ? "underline text-text" : "no-underline text-text/70" }
           >
             resume
           </a>
