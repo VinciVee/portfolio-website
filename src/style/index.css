@@ -53,12 +53,12 @@
     background-size: 500px 395px;
   }
 
-  h1 { @apply font-extrabold text-[2.5em] text-text/90 tracking-wider leading-tight  mb-0; } /* Title - Name */
-  h2 { @apply font-medium text-[1.75em]  text-text/65 tracking-wider leading-tight mb-5 mt-0; } /* Subtitle - Role */
-  h3 { @apply font-medium text-2xl text-text/90 mb-3 mt-10 tracking-wide; } /* Section Names */
-  h4 { @apply font-bold text-lg text-text/90 tracking-wide; } /* Article Titles */
-  h5 { @apply font-medium text-lg  text-text/55 mb-2; } /* Article Subtitles */
-  p { @apply font-normal text-base text-text/80 text-justify; }
+  h1 { @apply font-extrabold text-[2.5em] text-text/95 tracking-wider leading-tight  mb-0; } /* Title - Name */
+  h2 { @apply font-medium text-[1.75em]  text-text/75 tracking-wider leading-tight mb-5 mt-0; } /* Subtitle - Role */
+  h3 { @apply font-medium text-2xl text-text/95 mb-3 mt-10 tracking-wide; } /* Section Names */
+  h4 { @apply font-bold text-lg text-text/95 tracking-wide; } /* Article Titles */
+  h5 { @apply font-medium text-lg  text-text/65 mb-2; } /* Article Subtitles */
+  p { @apply font-normal text-base text-text/90 text-justify; }
   strong { @apply font-semibold text-base mb-6; }
   a { @apply text-text }
 }
