@@ -27,7 +27,7 @@
 
   body::before {
     content: "";
-    @apply pointer-events-none fixed inset-0 z-[-1] mix-blend-color opacity-20;
+    @apply pointer-events-none fixed inset-0 z-[-1] mix-blend-color opacity-10;
     background-image: linear-gradient(
       90deg,
       #8E5FBF 0%,
